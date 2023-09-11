@@ -12,6 +12,6 @@ public class WelcomeController {
 	public String welcome (Model model) {
 		model.addAttribute("greeting", "Welcome to BookMarket"); 
 		model.addAttribute("strapline", "Welcome to Web Shopping Mall!"); 
-		return "welcome";
+		return "welcome page";
 		}
 }
