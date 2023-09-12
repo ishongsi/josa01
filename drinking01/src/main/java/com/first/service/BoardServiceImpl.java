@@ -15,7 +15,7 @@ import lombok.extern.log4j.Log4j;
 @Log4j
 public class BoardServiceImpl implements BoardSerivce{
 	
-	@Setter(onMethod_= @Autowired )
+	@Setter(onMethod_=@Autowired)
 	BoardMapper mapper;
 	
 	public List<BoardVO> getList()
