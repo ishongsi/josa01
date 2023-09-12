@@ -2,6 +2,7 @@ package com.first.mapper;
 
 import java.util.List;
 
+import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
@@ -20,6 +21,7 @@ public class BoardMapperTest {
 	@Setter(onMethod_= @Autowired)
 	private BoardMapper mapper;
 	
+	@Test
 	public void getList()
 	{
 		mapper.getList().forEach(board -> log.info(board));
