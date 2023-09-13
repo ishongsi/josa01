@@ -1,5 +1,7 @@
 Manifest-Version: 1.0
-Built-By: S145-15IWL PC
-Build-Jdk: 11.0.16.1
+
+Built-By: ￪ﾹﾀ￫ﾯﾼ￬ﾞﾬ
+Build-Jdk: 11.0.19
+
 Created-By: Maven Integration for Eclipse
 
