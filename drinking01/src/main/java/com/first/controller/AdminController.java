@@ -27,9 +27,23 @@ import com.first.service.AdminService;
 	    @RequestMapping(value="main", method = RequestMethod.GET)
 	    public void adminMainGET() throws Exception{
 	        
-	        logger.info("관리자 페이지로 이동");
-	        
-	      
-	        
+	        logger.info("관리자 페이지로 이동");        
 	    }
+	    
+	    
+	    
+	    @RequestMapping(value = "goodsManage", method = RequestMethod.GET)
+	    public void goodsManageGET() throws Exception{
+	        logger.info("상품 관리 페이지 접속");
+	    }
+	    
+	    @RequestMapping(value = "goodsEnroll", method = RequestMethod.GET)
+	    public void goodsEnrollGET() throws Exception{
+	        logger.info("상품 등록 페이지 접속");
+	    }
+	    
+
+	    
+	    
+	    
 }
