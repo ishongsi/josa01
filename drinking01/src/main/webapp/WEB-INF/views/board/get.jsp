@@ -22,7 +22,8 @@
 	<input type = "text" name = "writer" readonly = "readonly" value = "${board.writer}">
 </div>	
 
-<input type = "submit" value = "작성">
+<button type = "submit" >수정</button>
+<button type = "submit" >삭제</button>
 
 </body>
 </html>
