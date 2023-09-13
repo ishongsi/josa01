@@ -21,10 +21,17 @@ public class BoardMapperTest {
 	@Setter(onMethod_= @Autowired)
 	private BoardMapper mapper;
 	
-	@Test
-	public void getList()
-	{
-		mapper.getList().forEach(board -> log.info(board));
-	}
+//	@Test
+//	public void getList()
+//	{
+//		mapper.getList().forEach(board -> log.info(board));
+//	}
+	
+//	@Test
+//	public void insertDummies()
+//	{
+//		BoardVO board = new Boa
+//		mapper.insert();
+//	}
 
 }

@@ -10,6 +10,8 @@ import com.first.domain.BoardVO;
 public interface BoardSerivce {
 	public List<BoardVO> getList();
 	
+	public void register(BoardVO boardVO);
+	
 	
 	
 
