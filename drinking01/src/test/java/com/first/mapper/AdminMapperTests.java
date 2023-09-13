@@ -15,7 +15,7 @@ public class AdminMapperTests {
 	@Autowired
 	private AdminMapper mapper;
 	
-	/* 주류 등록 */
+
 	@Test
 	public void bookEnrollTest() throws Exception{
 		

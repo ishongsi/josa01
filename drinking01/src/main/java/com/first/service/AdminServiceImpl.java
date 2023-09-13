@@ -15,7 +15,7 @@ public class AdminServiceImpl implements AdminService{
 @Autowired
 private AdminMapper adminMapper;
 
- //주류 등록
+ 
 @Override
 public void drinkEnroll(DrinkVO drink) {
 	log.info("(service)drinkEnroll......");

@@ -23,7 +23,7 @@ import com.first.service.AdminService;
 	 
 	 
 	 
-	 // 관리자 메인 페이지 이동 
+
 	    @RequestMapping(value="main", method = RequestMethod.GET)
 	    public void adminMainGET() throws Exception{
 	        
