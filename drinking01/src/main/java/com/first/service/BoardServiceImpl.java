@@ -18,10 +18,18 @@ public class BoardServiceImpl implements BoardSerivce{
 	@Setter(onMethod_=@Autowired)
 	BoardMapper mapper;
 	
+	@Override
 	public List<BoardVO> getList()
 	{
 		log.info("service->getList()");
 		return mapper.getList();
+	}
+	@Override
+	public void register(BoardVO boardVO)
+	{
+		log.info("service->insert()");
+		mapper.insert(boardVO);
+		
 	}
 	
 
