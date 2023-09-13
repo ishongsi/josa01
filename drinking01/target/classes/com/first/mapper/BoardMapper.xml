@@ -11,4 +11,9 @@ select * from tbl_board where bno > 0
 ]]>
 </select>
 
+<select id = "insert" >
+insert into tbl_board(bno , title , content , writer )
+    values (seq_board.nextval , #{title} , #{content} , #{writer})
+</select>
+
 </mapper>
