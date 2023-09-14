@@ -24,12 +24,19 @@ public class BoardServiceImpl implements BoardSerivce{
 		log.info("service->getList()");
 		return mapper.getList();
 	}
+	
 	@Override
 	public void register(BoardVO boardVO)
 	{
 		log.info("service->insert()");
 		mapper.insert(boardVO);
 		
+	}
+	
+	@Override
+	public BoardVO getBoard(Long bno)
+	{
+		return mapper.getBoard(bno);
 	}
 	
 

@@ -12,6 +12,8 @@ public interface BoardSerivce {
 	
 	public void register(BoardVO boardVO);
 	
+	public BoardVO getBoard(Long bno);
+	
 	
 	
 

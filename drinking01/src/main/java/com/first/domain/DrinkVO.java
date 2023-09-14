@@ -8,15 +8,13 @@ import lombok.Data;
 public class DrinkVO {
 
 
-
 	private int drinkId;
 	private String drinkName;
 	private String cateCode;
 	private String cateName;
-	private int drinkPrice;	
+	private int drinkPrice;
 	private String drinkIntro;
 	
 	
-	 
 }
 
