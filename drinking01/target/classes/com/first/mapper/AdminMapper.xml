@@ -9,6 +9,12 @@
   	
   		insert into tbl_drink(drinkName, drinkId, cateCode, cateName, drinkPrice, drinkIntro)
 		values(#{drinkName},#{drinkId}, #{cateCode},#{cateName},#{drinkPrice},#{drinkIntro})
+ 	</insert>
+ 	
+<!-- 카테고리 리스트 -->
+<select id="cateList" resultType="com.domain.CateVO">
 
-  	</insert>
+	select * from tbl_dcate order by catecode
+
+</select>
   </mapper>
