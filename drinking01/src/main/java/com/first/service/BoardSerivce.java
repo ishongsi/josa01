@@ -6,9 +6,11 @@ import org.springframework.stereotype.Service;
 
 import com.first.domain.BoardVO;
 
-@Service
+
 public interface BoardSerivce {
 	public List<BoardVO> getList();
+	
+	public void register(BoardVO boardVO);
 	
 	
 	
